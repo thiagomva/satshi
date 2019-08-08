@@ -1,0 +1,111 @@
+body {
+  padding-top: 70px;
+  background-color: #f2f2f2 !important;
+}
+
+.badge-primary {
+  background-color: #71e29e;
+  padding-top: 8px;
+}
+
+.btn-primary {
+  border-radius: 20px;
+  background-color: #71e29e !important;
+  border: 0 !important;
+  letter-spacing: 0.8px;
+  padding: 5px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #3b494e !important;
+}
+
+.btn-primary:hover {
+  background-color: rgba(113,226,158, 0.6) !important;
+}
+
+.btn-primary:focus {
+  outline: none;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  opacity: 0.5;
+  background-color: rgb(135, 172, 196);
+}
+
+.alert-confirm-btn {
+  background-color: #71e29e !important;
+  border-color: #71e29e !important;
+  border-radius: 20px !important;
+  cursor: pointer !important;
+}
+
+.alert-confirm-btn:hover {
+  background-color: rgba(113,226,158, 0.6) !important;
+  border-color: rgba(113,226,158, 0.6) !important;
+}
+
+.alert-confirm-btn:focus {
+  box-shadow: 0 0 0 0.2rem rgba(113,226,158, 0.6);
+}
+
+.alert-cancel-btn {
+  color: #6c757d !important;
+  border-color: #6c757d !important;
+  border-radius: 20px !important;
+  background-color: transparent !important;
+  border: 1px solid !important;
+  cursor: pointer !important;
+}
+
+.alert-cancel-btn:hover {
+  color: #fff !important;
+  background-color: #6c757d !important;
+  border-color: #6c757d !important;
+}
+
+.loading-overlay {
+    opacity: 0.9;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0 !important;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+}
+
+.loading-container {
+    color: black;
+    margin: auto;
+    font-size: 26px;
+    font-weight: bold;
+    flex-direction: column;
+    box-sizing: border-box;
+    display: flex;
+    place-content: center center;
+    align-items: center;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.form-control,
+.form-control:focus{
+  background-color: transparent !important;
+}
+
+.truncate{
+  line-height: 1.25 !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}

@@ -1,0 +1,16 @@
+{
+  "short_name": "SatsHi",
+  "name": "SatsHi",
+  "description": "Live streaming platform with Bitcoin Tips",
+  "icons": [
+    {
+      "src": "https://satshi.tv/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "https://satshi.tv/manifest.json",
+  "display": "standalone",
+  "theme_color": "#71e29e",
+  "background_color": "#344248"
+}

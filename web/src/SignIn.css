@@ -1,0 +1,51 @@
+.signin-left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+    border-right: 1px solid #e0e0e0;
+}
+
+.signin-left-container p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.signin-right-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.signin-right-container h5 {
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.signin-img {
+    height: 70px;
+}
+
+.signin-btn {
+    font-size: 16px;
+}
+
+.signin-modal .modal-header  {
+    padding: 0 !important;
+    margin: 0 !important; 
+    border: none !important;
+    justify-content: flex-end !important;
+}
+
+.signin-modal .modal-header > button {
+    padding: 0px 5px !important;
+    margin: 0 !important; 
+    border: none !important;
+}
+
+.signin-modal .modal-header > button:focus {
+    outline: none !important;
+}

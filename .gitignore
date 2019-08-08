@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+*.sqlite
+/.vs
+/web/.vscode
+/web/dist
+/server/config/environments/dev.js
+/server/config/environments/production.js
+/web/.env.development
+/web/.env.production

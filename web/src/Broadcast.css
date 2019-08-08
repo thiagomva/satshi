@@ -1,0 +1,140 @@
+#videoElementId{
+    margin: auto;
+    height: 100%;
+    max-width: 100%;
+}
+
+.video-wrapper{
+    width: 100%;
+    max-width: calc(100vw - 280px);
+    height: calc(100vh - 270px);
+    min-height: 300px;
+    text-align: center;
+    background-color: black;
+}
+
+.width-with-chat{
+    width: 80%;
+    max-width: calc(100% - 280px);
+}
+
+.chat-container {
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    min-width: 280px;
+    width: 20%;
+    height: calc(100% - 70px);
+}
+
+.channel-backdrop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    width: 100%;
+    height: calc(100vh - 70px);
+    color: #101010;
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.channel-backdrop i {
+    font-size: 40px;
+}
+
+
+.broadcast-profile-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.broadcaster-name{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #3f4b50;
+}
+
+.top-info .people-watching-column{
+    margin-top:7px;
+}
+
+.top-info .people-watching{
+    font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.35px;
+  text-align: left;
+  color: #3f4b50;
+  line-height: 1;
+  margin-bottom: 3px;
+}
+
+.top-info .total-people-watching{
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.9px;
+    text-align: right;
+    color: #3f4b50;
+    line-height: 1;
+}
+
+.status-badge{
+    font-size: 16px;
+    line-height: 30px;
+    position: relative;
+    top: unset;
+    left: unset;
+    margin-top: 10px
+}
+
+.title-description-column{
+    max-width: calc(100% - 100px);
+}
+
+.broadcast-title{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.22;
+    letter-spacing: 0.45px;
+    text-align: left;
+    color: #3f4b50;
+}
+
+.broadcast-description{
+    font-size: 14px;
+    line-height: 1.57;
+    letter-spacing: 0.35px;
+    text-align: left;
+    color: #3f4b50;
+}
+
+.btn.outline-button{
+    border-radius: 4px;
+    border: solid 2px #3f4b50;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #3f4b50;
+}
+
+.go-live-title{
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 0.7px;
+    text-align: center;
+    color: #344248;
+}
+
+.create-channel{
+    max-width: 480px;
+    margin: auto;
+}
+
+.stop-button{
+    margin-top:5px;
+}
